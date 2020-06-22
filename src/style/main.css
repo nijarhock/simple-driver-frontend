@@ -1,0 +1,21 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+#root {
+    width: 100%;
+}
+.folder {
+    font-size: 8em;
+    color: tomato;
+}
+.listFile {
+    margin-bottom: 5px;
+}
+.listFile > .card-body.active {
+    background-color: aquamarine;
+}
